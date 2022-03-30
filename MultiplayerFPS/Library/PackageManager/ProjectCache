@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842171803208663
-    m_Hash: 1701675687
+      ticks: 637842767419152107
+    m_Hash: 650722099
   m_LockFileStatus:
     m_FilePath: C:/Users/s213321/Documents/UnityProjects/MultiplayerFPS_EuanWJ/MultiplayerFPS/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842171803429942
-    m_Hash: 3388678084
+      ticks: 637842767419269914
+    m_Hash: 412188102
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -700,12 +700,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/iet-package.git
         revision: d8844989d65f92c6dede187e8149d129ac4f6a41
         path: 
-    - packageId: com.unity.probuilder@5.0.1
+    - packageId: com.unity.probuilder@4.5.2
       testable: 0
       isDirectDependency: 1
-      version: 5.0.1
+      version: 4.5.2
       source: 1
-      resolvedPath: C:\Users\s213321\Documents\UnityProjects\MultiplayerFPS_EuanWJ\MultiplayerFPS\Library\PackageCache\com.unity.probuilder@5.0.1
+      resolvedPath: C:\Users\s213321\Documents\UnityProjects\MultiplayerFPS_EuanWJ\MultiplayerFPS\Library\PackageCache\com.unity.probuilder@4.5.2
       assetPath: Packages/com.unity.probuilder
       name: com.unity.probuilder
       displayName: ProBuilder
@@ -798,17 +798,9 @@ m_PackageAssets:
       dependencies:
       - name: com.unity.settings-manager
         version: 1.0.3
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
       resolvedDependencies:
       - name: com.unity.settings-manager
         version: 1.0.3
-      - name: com.unity.modules.physics
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
       keywords:
       - 3d
       - model
@@ -842,13 +834,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637510988750000000
+      datePublishedTicks: 637613656650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
-        revision: 76309767188905d188c251248422a017963f4f2d
+        url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+        revision: 27f52072e5f94638d1f81bc53df38e59d5bac785
         path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
@@ -3216,7 +3208,7 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
         revision: 473664ccba1496294b741cf169740a5d54b3d0b6
         path: 
     - packageId: com.unity.editorcoroutines@1.0.0
