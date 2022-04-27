@@ -17,7 +17,6 @@ public class TwitchAnimation : MonoBehaviour
 
     void ChangeClip()
     {
-        Debug.Log("Playing");
         int rand = Random.Range(0, 2);
 
         animator.SetInteger("ClipNumber",rand);
